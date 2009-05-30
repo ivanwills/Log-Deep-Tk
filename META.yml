@@ -1,0 +1,22 @@
+---
+name: Log-Deep-Tk
+version: 0.0.1
+author:
+  - 'Ivan Wills <ivan.wills@gmail.com>'
+abstract: "<One-line description of module's purpose>"
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Log::Deep: 0.1
+  perl: 5.0008
+build_requires:
+  Test::More: 0
+provides:
+  Log::Deep::Tk:
+    file: lib/Log/Deep/Tk.pm
+    version: 0.0.1
+generated_by: Module::Build version 0.32
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
